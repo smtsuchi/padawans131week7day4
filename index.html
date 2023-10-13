@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Start of Container for Movie Posters -->
+    <div class="container">
+        <button onclick="stopSong()">Stop Song</button> <!--TODO Add onclick event listener-->
+        <div class="gallery">
+
+            <figure class="gallery__item gallery__item--1" id="fig1">
+                <img class="gallery__img" onclick="clickedEvent(this.alt)" src="https://m.media-amazon.com/images/I/61cN-XN94TL._AC_UF894,1000_QL80_.jpg" alt="Time - Hans Zimmer">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2">
+                <img class="gallery__img" onclick="clickedEvent(this.alt)" src="https://m.media-amazon.com/images/I/51GptR89+zL._AC_.jpg" alt="Why So Serious? - Hans Zimmer">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3">
+                <img class="gallery__img" onclick="clickedEvent(this.alt)" src="https://storage.googleapis.com/hipcomic/p/2b90b1656e78812cc6d3c59b5fdd9d2a.jpg" alt="Big Poppa - The Notorious B.I.G.">
+            </figure>
+            
+            <figure class="gallery__item gallery__item--4" id="fig4">
+                <img class="gallery__img" onclick="clickedEvent(this.alt)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMulOQ7fKea724Ne71b2tFr_nFDT-vyddWLekKf1Bg6SVbDpR_Tf-MH1X2EeS9EAxH1uY_zZpqhto&usqp=CAU&ec=48665701" alt="Danger Zone Top Gun - Kenny Loggins">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5">
+                <img class="gallery__img" onclick="clickedEvent(this.alt)" src="https://m.media-amazon.com/images/I/51asM9eJMXL.jpg" alt="Prologue - John Williams">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6">
+                <img class="gallery__img" onclick="clickedEvent(this.alt)" src="https://m.media-amazon.com/images/I/A1M0qlxNo6L.jpg" alt="Mission: Accomplished - Lonre Balfe">
+            </figure>
+
+        </div>
+    </div>
+    
+    
+
+    <script src="main.js" defer></script>
+</body>
+</html>
